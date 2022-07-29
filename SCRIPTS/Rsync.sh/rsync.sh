@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo rsync -rav --bwlimit=50000 root@Ip_maquina:/home/user/documentos/upload /home/user/documentos/upload
+rsync -rav --bwlimit=50000 /usr/lib/jvm/jdk-11.0.16_linux-x64_bin.tar.gz root@10.1.0.19:/tmp
+
 
 #script para copiar dados entre servidores rsync
 #bwlimit para definir o tamanho da banda utilizada em KBPS
