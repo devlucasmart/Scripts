@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rsync -rav --bwlimit=50000 /usr/lib/jvm/jdk-11.0.16_linux-x64_bin.tar.gz root@10.1.0.19:/tmp
+rsync -rav --bwlimit=50000 /GIT/Scripts/SCRIPTS/Rsync lxdf02@192.168.122.82:/home/lxdf02
 
 
 #script para copiar dados entre servidores rsync
